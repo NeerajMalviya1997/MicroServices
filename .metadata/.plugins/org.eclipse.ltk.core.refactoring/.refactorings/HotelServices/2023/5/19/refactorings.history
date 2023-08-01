@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.microServices.hotel.repository.HOtelRepository&apos; to &apos;HotelRepository&apos;&#x0D;&#x0A;- Original project: &apos;HotelServices&apos;&#x0D;&#x0A;- Original element: &apos;com.microServices.hotel.repository.HOtelRepository&apos;&#x0D;&#x0A;- Renamed element: &apos;com.microServices.hotel.repository.HotelRepository&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;HOtelRepository&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.microServices.hotel.repository{HOtelRepository.java[HOtelRepository" matchStrategy="1" name="HotelRepository" qualified="false" references="true" similarDeclarations="false" stamp="1683612132955" textual="false" version="1.0"/>
+</session>

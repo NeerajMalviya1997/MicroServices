@@ -1,0 +1,8 @@
+package com.microServices.user.externalAPIfign;
+
+import org.springframework.cloud.openfeign.FeignClient;
+
+@FeignClient
+public interface RatingService {
+
+}

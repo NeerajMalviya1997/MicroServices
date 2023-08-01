@@ -1,0 +1,16 @@
+package com.microServices.user.externalAPIfign;
+
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+
+
+import com.microServices.user.model.Rating;
+
+@FeignClient("RATING-SERVICES")
+public interface RatingServices {
+	
+	
+	@GetMapping("rating/user/{userId}")
+	public Rating[] getHotelById(@PathVariable("userId") Integer userId);
+}

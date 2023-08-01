@@ -1,0 +1,5 @@
+package com.microServices.user.externalAPIfign;
+
+public interface RatingServices {
+
+}
